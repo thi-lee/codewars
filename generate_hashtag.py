@@ -9,6 +9,11 @@ def generate_hashtag(s):
     # Join them together with hashtag at the beginning
     return '#' + ''.join(str2)
 
+# most of the return statements go like this:
+# return False if (len(s) == 0 or len(output) > 140) else output
+# and that's something new I gotta learn how to do
+# although I don't know if it's necessary :) 
+
 print(generate_hashtag(''))
 print(generate_hashtag('Do We have A Hashtag'))
 print(generate_hashtag('Codewars'))
